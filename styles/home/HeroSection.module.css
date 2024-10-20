@@ -1,0 +1,607 @@
+.HeroSectionMain {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.HeroSectionBody {
+  margin-top: 100px;
+}
+.HeroSectionBody h1 {
+  color: White;
+}
+.HeroSectionBodyBtn {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+.HeroSectionBodyBtn button {
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: #e1be52;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+.heroSectionLogo img {
+  width: 100px;
+}
+
+@media (max-width: 1300px) {
+  .HeroSectionDiv1 {
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    gap: 300px;
+  }
+}
+@media (max-width: 1200px) {
+  .HeroSectionLinks {
+    display: none;
+  }
+  .heroSectionLogo img {
+    width: 80px;
+  }
+}
+@media (max-width: 1100px) {
+  .HeroSectionMain {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+}
+@media (max-width: 870px) {
+  .heroSectionLogo img {
+    width: 80px;
+  }
+  .HeroSection img {
+    /* height: 600px; */
+    width: 100%;
+  }
+  .HeroSectionMain {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+}
+@media (max-width: 760px) {
+  .HeroSection img {
+    height: 500px;
+  }
+}
+@media (max-width: 550px) {
+  .HeroSection img {
+    height: 550px;
+  }
+  .HeroSectionBody h1 {
+    font-size: 7vw;
+  }
+}
+/* Navbar */
+.navLogo img {
+  width: 100px;
+}
+.navCont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #4b3274;
+}
+.navLinks ul {
+  display: flex;
+  gap: 70px;
+}
+.navLinks ul li {
+  list-style: none;
+}
+.navLinks ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.navIcon {
+  display: none;
+}
+.navMob {
+  position: absolute;
+  left: 0%;
+  height: 500px;
+  top: 0%;
+  width: 400px;
+  background-color: #4b3274;
+  z-index: 99;
+  padding: 20px;
+  display: none;
+}
+.navMobactive {
+  display: block;
+}
+.mobNavLogo1 img {
+  width: 80px;
+}
+.mobNavLogo2 img {
+  width: 20px;
+  height: 20px;
+}
+.MobnavLibks {
+  padding-top: 30px;
+}
+.MobnavLibks ul li {
+  padding: 10px;
+  list-style: none;
+}
+.MobnavLibks ul li a {
+  color: white;
+  font-size: 20px;
+}
+.mobNavLogo {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1100px) {
+  .navIcon {
+    display: block;
+  }
+  .navLinks {
+    display: none;
+  }
+  .navLogo img {
+    width: 70px;
+  }
+  .navCont {
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+  }
+  .navIcon img {
+    width: 40px;
+  }
+}
+
+@media (max-width: 630px) {
+  .navCont {
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+  }
+  .navLogo img {
+    width: 50px;
+  }
+}
+
+/* Navbar */
+
+/* Section */
+.sectionCont {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.SectionRight p {
+  word-spacing: 8px;
+  margin-top: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.SectionLeft img {
+  width: 400px;
+}
+.SectionRight h2 {
+  color: #e1be52;
+  font-size: 40px;
+}
+.sectionList {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.sectionList1 li {
+  font-size: 20px;
+}
+@media (max-width: 1050px) {
+  .sectionCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .SectionLeft img {
+    width: 200px;
+  }
+  .SectionRight h1 {
+    text-align: center;
+  }
+  .SectionRight h2 {
+    text-align: center;
+  }
+  /* .SectionRight p {
+    text-align: center;
+  } */
+}
+@media (max-width: 800px) {
+  .sectionList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Section */
+/* courses */
+.coursesCont {
+}
+.coursesMainImg img {
+  width: 100px;
+}
+.CoursesMainDiv1 {
+  background-color: #e1be52;
+}
+.coursesMain {
+  display: grid;
+  padding: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 80px;
+  background-color: #594e7b;
+}
+.CoursesMainDiv1 {
+  border-radius: 20px;
+}
+.coursesHead {
+  text-align: center;
+  padding: 50px;
+  background-color: #76686c;
+}
+.coursesHead h1 {
+  color: white;
+  font-size: 30px;
+}
+.coursesMainImg {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.coursesMainPara {
+  padding: 20px;
+}
+.coursesMainPara h3 {
+  color: white;
+}
+.coursesMainPara p {
+  color: white;
+}
+.coursesMainBtn {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+.coursesMainBtn button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #594e7b;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+@media (max-width: 1200px) {
+  .coursesMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .coursesMainImg img {
+    width: 80px;
+  }
+}
+@media (max-width: 763px) {
+  .coursesMain {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .coursesMainImg img {
+    width: 300px;
+  }
+  .coursesMainPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .coursesMainPara h3 {
+    font-size: 30px;
+  }
+  .coursesMainBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .coursesMainPara h3 {
+    text-align: center;
+  }
+  @media (max-width: 500px) {
+    .coursesMainPara h3 {
+      font-size: 5vw;
+      text-align: center;
+    }
+  }
+}
+/* courses */
+/* pillars of islam */
+.pillarMainImg img {
+  width: 190px;
+}
+.pillarMainImg {
+  position: relative;
+}
+.PilarsMainImg2 {
+  position: absolute;
+  top: 40%;
+  left: 40px;
+}
+.PilarsMainImg2 img {
+  width: 90px;
+}
+.PilarsMainImg2 h3 {
+  text-align: center;
+}
+.pillarsMain {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+}
+.pillarsHead {
+  text-align: center;
+  padding: 90px;
+}
+.pillarsHead h1 {
+  font-size: 80px;
+  color: #e1be52;
+}
+.pillarsHead h2 {
+  font-size: 40px;
+}
+@media (max-width: 1200px) {
+  .pillarsMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .pillarsMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pillarMainImg img {
+    width: 300px;
+  }
+  .PilarsMainImg2 img {
+    width: 200px;
+  }
+  .PilarsMainImg2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }
+}
+@media (max-width: 530px) {
+  .pillarsHead h2 {
+    font-size: 5vw;
+  }
+  .pillarsHead h1 {
+    font-size: 12vw;
+  }
+}
+/* pillars of islam */
+/* Quote */
+.quoteHeading {
+  text-align: center;
+  padding: 70px;
+}
+.quoteHeading h1 {
+  font-size: 50px;
+  padding: 20px;
+  color: #e1be52;
+}
+.quoteHeading h2 {
+  font-size: 30px;
+}
+.quoteBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.quoteBodyPara {
+  text-align: center;
+  padding: 20px;
+}
+.quoteBodyImg img {
+  width: 120px;
+}
+.quoteBodyPara p {
+  padding: 30px;
+}
+/* Quote */
+/* work */
+.workConta {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  gap: 500px;
+  background-color: #594e7b;
+}
+.workDiv1Head button {
+  width: 100px;
+  border-radius: 20px;
+  height: 30px;
+  border: none;
+  background-color: #e1be52;
+}
+.workDiv1Head h2 {
+  margin-top: 30px;
+}
+.workDiv2 {
+  display: flex;
+  gap: 20px;
+}
+.workDiv2Line {
+  width: 5px;
+  height: 280px;
+  background-color: white;
+}
+.workDiv2Main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.workDiv2Main1 {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #aaa4c7;
+}
+.workDiv2Main1 h2 {
+  font-size: 25px;
+}
+@media (max-width: 1130px) {
+  .workConta {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .workDiv2Main1 {
+    width: 700px;
+  }
+}
+@media (max-width: 800px) {
+  .workDiv2Main1 {
+    width: 500px;
+  }
+}
+@media (max-width: 600px) {
+  .workDiv2Main1 {
+    width: 400px;
+  }
+  .workDiv2Line {
+    display: none;
+  }
+  .workConta {
+    padding: 20px 10px;
+  }
+}
+@media (max-width: 450px) {
+  .workDiv2Main1 {
+    width: 380px;
+  }
+  .workDiv2Main1 h2 {
+    font-size: 5vw;
+  }
+}
+/* work */
+/* Footer */
+.footerCont {
+  background-color: #322769;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  gap: 40px;
+}
+
+.footerDiv1 li {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  list-style: none;
+}
+.footerDiv1 h1 {
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+.footerDiv1 p {
+  color: white;
+  padding: 0px 10px;
+  font-size: 18px;
+}
+.footerDiv2Div1 img {
+  width: 20px;
+  background-color: #e1be52;
+}
+.footerDiv2Div1 {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+.footerend img {
+  width: 40px;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.footerDiv4 h2 {
+  color: white;
+  padding: 10px 0px;
+}
+.footerend {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0px;
+}
+@media (max-width: 768px) {
+  .footerCont {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+/* Footer */
+/* FAQS */
+.FAQSCont {
+  padding: 30px;
+}
+.faqsHead {
+  text-align: center;
+}
+.faqsHead h2 {
+  font-size: 40px;
+}
+.faqsHead h1 {
+  font-size: 70px;
+  color: #e1be52;
+}
+.faqsMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  gap: 20px;
+}
+.FAQSDiv {
+  background-color: #e1be52;
+  padding: 20px;
+  border-radius: 30px;
+}
+@media (max-width: 830px) {
+  .faqsMain {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .faqsMain {
+    padding: 0px;
+  }
+  .faqsHead h2 {
+    font-size: 7vw;
+  }
+  .faqsHead h1 {
+    font-size: 15vw;
+    color: #e1be52;
+    padding: 20px;
+  }
+}
+
+/* FAQS */
